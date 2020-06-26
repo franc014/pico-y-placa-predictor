@@ -24,14 +24,14 @@ class Predictor {
   __notOnRoadResponse() {
     return {
       canBe: false,
-      message: `Oh No! The vehicle with plate ${this.carPlate} can not travel now.`,
+      message: `Oh No! The vehicle with plate ${this.carPlate} is not allowed to be on road.`,
     };
   }
 
   __onRoadResponse() {
     return {
       canBe: true,
-      message: `Great! The vehicle with plate ${this.carPlate} can travel now.`,
+      message: `Great! The vehicle with plate ${this.carPlate} is allowed to be on road.`,
     };
   }
 

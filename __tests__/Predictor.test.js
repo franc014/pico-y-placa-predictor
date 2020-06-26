@@ -76,7 +76,7 @@ describe("a car can be on the road", () => {
 
     expect(canBeOnRoad.canBe).toBeTruthy();
     expect(canBeOnRoad.message).toBe(
-      `Great! The vehicle with plate ${carPlate} can travel now.`
+      `Great! The vehicle with plate ${carPlate} is allowed to be on road.`
     );
   });
 
@@ -91,7 +91,7 @@ describe("a car can be on the road", () => {
 
     expect(canBeOnRoad.canBe).toBeFalsy();
     expect(canBeOnRoad.message).toBe(
-      `Oh No! The vehicle with plate ${carPlate} can not travel now.`
+      `Oh No! The vehicle with plate ${carPlate} is not allowed to be on road.`
     );
   });
 
@@ -106,7 +106,7 @@ describe("a car can be on the road", () => {
 
     expect(canBeOnRoad.canBe).toBeTruthy();
     expect(canBeOnRoad.message).toBe(
-      `Great! The vehicle with plate ${carPlate} can travel now.`
+      `Great! The vehicle with plate ${carPlate} is allowed to be on road.`
     );
   });
 });

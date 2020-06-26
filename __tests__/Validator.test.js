@@ -27,12 +27,13 @@ describe("Predictor input validations", () => {
     expect(plate3IsValid).toBeFalsy();
   });
 
-  it("is a valid date", () => {
+  it("is an invalid date", () => {
     const validator = new Validator();
     const date = "2020/02/31";
     const dateIsValid = validator.validateDate(date);
     expect(dateIsValid).toBeFalsy();
   });
+
   it("validates date format", () => {
     const validator = new Validator();
     const date1 = "2020/04/27";
