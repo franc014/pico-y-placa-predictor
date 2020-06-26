@@ -1,14 +1,14 @@
 # Pico y Placa Predictor
 
-# Installation
+# Installation (Dev environment)
 
 1. Clone this repo (https://github.com/franc014/pico-y-placa-predictor)
 2. Inside project folder:
-   - Install project dependencies
+   - Install project dependencies:
      `yarn install`
-   - Development
-     `yarn dev` App will run on [Pico y Placa predictor](http://localhost:1234)
-   - Testing
+   - Development:
+     `yarn dev` App will run on http://localhost:1234
+   - Testing:
      `yarn test`
 
 # Demo
