@@ -22,7 +22,7 @@
   --box-shadow-regular: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
   --error-color: hsl(322, 60%, 37%);
-  --success-color: hsl(181, 47%, 33%);
+  --success-color: hsl(148, 48%, 43%);
 }
 
 html {
