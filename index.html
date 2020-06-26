@@ -4,8 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pico y Placa predictor</title>
+    <link rel="stylesheet" href="./src/app.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Pico y Placa predictor</h1>
+    <section class="predictor">
+      <h1>Pico y Placa Predictor</h1>
+      <form id="predictorForm" name="predictorForm">
+        <label for="carPlate" class="label">Car Plate </label>
+        <input
+          type="text"
+          id="carPlate"
+          name="carPlate"
+          placeholder="P354-698"
+          required
+        />
+        <label for="date" class="label">Date</label>
+        <input
+          type="text"
+          id="date"
+          name="date"
+          placeholder="2020/03/25"
+          required
+        />
+        <label for="time" class="label">Time</label>
+        <input
+          type="text"
+          id="time"
+          name="time"
+          placeholder="10:30:15"
+          required
+        />
+        <button name="check" id="check" type="submit">Check</button>
+
+        <div class="result-alert" id="results"></div>
+      </form>
+    </section>
+
+    <script src="./src/app.js"></script>
   </body>
 </html>
