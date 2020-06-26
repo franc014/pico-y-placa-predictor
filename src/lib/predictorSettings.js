@@ -6,8 +6,8 @@ const platesRestrictedByDate = (date) => {
     wednesday: [5, 6],
     thursday: [7, 8],
     friday: [9, 0],
-    saturday: [0, 1, 2, 3, 4, 5, 6],
-    sunday: [0, 1, 2, 3, 4, 5, 6],
+    saturday: [],
+    sunday: [],
   };
 
   return platesByDay[getDayName(date)];
