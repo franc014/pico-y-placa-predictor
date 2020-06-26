@@ -21,7 +21,7 @@ This project is a Vanilla Javascript Application. It uses ES5 syntax such as arr
 CSS is managed via one single file in /src/app.css. CSS variables are used to set up a light design system implementation for UI styling.
 
 For testing, it uses the Jest framework. Tests are located in "**tests**" folder.
-Each test suit reflects the Application user features, such as the prediction itself, but also unit tests for date management and input validation. It’s limited to feature testing, avoiding end to end testing, to keep it as simple as possible.
+Each test suit reflects the Application user features, such as the prediction itself, but also unit tests for date management and input validation. 
 
 There are some branches defined for specific parts of application. The branch "predictor-development" is used to integrate ui and “business” logic. This is a branch that may be used to deploy to a stage environment or server.
 
